@@ -1,8 +1,7 @@
 .header {
     background-color: red;
-    overflow: hidden;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     padding-top: 10px;
@@ -11,7 +10,7 @@
 
     .headeritem {
         padding: 10px;
-        margin: 10px;
+        margin: 5px;
         background-color: blue;
         display: inline-block;
         text-align: center;
