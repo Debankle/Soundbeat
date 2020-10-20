@@ -1,7 +1,12 @@
 import * as React from 'react';
 import style from './style/main.scss';
 
-class HeaderItem extends React.Component {
+type HeaderItemProps = {
+    itemLabel: string;
+    icon?: string | null;
+}
+
+class HeaderItem extends React.Component<HeaderItemProps, {}> {
     itemLabel: string;
     icon: string;
 
