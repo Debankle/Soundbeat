@@ -1,0 +1,19 @@
+.header {
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 10px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+
+    .headeritem {
+        padding: 10px;
+        margin: 10px;
+        background-color: blue;
+        display: inline-block;
+        text-align: center;
+    }
+}
