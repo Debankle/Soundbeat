@@ -8,7 +8,6 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Poopy brain</h1>
                 <Header />
                 <Playbar />
                 <Sidebar />
